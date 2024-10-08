@@ -1,3 +1,4 @@
+# Tiny Satellite Ground Station
 <p align="center">
 <img src="/doc/images/TinyGS_logo.png" width="600">
 </p>
@@ -25,6 +26,13 @@ Currently we are officially supporting the following proven LoRa boards:
 - **ESP32-S3 433Mhz Custom ESP32-S3 433MHz SX1278**
 
 However, any ESP32 board with sx126x or sx127x módule can be configured using templates. You can find more info about them [here](https://github.com/G4lile0/tinyGS/wiki/Board-Templates).
+
+# Our Hardware
+We have developed a custom ground station by soldering an ESP32 and LoRa SX1278 module onto a PCB. Additionally, we have integrated a 0.96-inch OLED display using an I2C connection for easy visualization. This setup is used to receive telemetry data efficiently and enhances the overall communication experience in our Tiny Satellite Ground Station.
+
+<p align="center">
+<img src="/doc/images/Lora_Board.jpg" width="600">
+</p>
 
 # Install
 
